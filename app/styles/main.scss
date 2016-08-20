@@ -17,7 +17,20 @@ $icon-font-path: '../fonts/';
 /* Header Styling */
 header{
   height: 100vh;
-  background-color: teal;
+  background-image: url("/images/image1.jpg");
+  background-size: 100%;
+}
+
+.overlay{
+
+  background-color: rgba(30, 118, 187, 0.5);
+  bottom:0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 1;
 }
 
 .fixing {
@@ -35,3 +48,5 @@ header{
   height: 50px;
   background-color: red;
 }
+
+/* Main Content */
