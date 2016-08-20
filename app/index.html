@@ -24,21 +24,31 @@
   </head>
   <body>
 
-    <header>
-      <nav id="nav-styling">
-        <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Project name</a>
+
+      <header>
+        <nav id="nav-styling">
+          <div class="container">
+
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+
+          <!--<img src="images/navicon.png"/>-->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="images/navicon.png"/></a></li>
+            </ul>
+
           </div>
-
-
-
-        </div>
 
       </nav>
 
+      </header>
 
-    </header>
+    <div class="container" style="min-height: 3000px;">
+
+
+
+    </div>
     <!-- End of Header !-->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -75,5 +85,21 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+      <script>
+        $(document).ready(function(){
+          $(window).bind('scroll', function() {
+            var navHeight = $( window ).height() - 70;
+            if ($(window).scrollTop() > navHeight) {
+              $('nav').addClass('fixing');
+
+            }
+            else {
+
+              $('nav').removeClass('fixing');
+            }
+          });
+        });
+      </script>
+
   </body>
 </html>
