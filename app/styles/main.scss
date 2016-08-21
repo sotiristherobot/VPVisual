@@ -4,14 +4,23 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+$font-regular : 'Karla';
 
 
 *{
   margin: 0;
   padding: 0;
+
   //width: 100%;
   //height: 100%;
 
+}
+
+body h1,h2,h3,h4{
+  font-family: $font-regular !important;
+  font-weight: 200;
 }
 
 /* Header Styling */
@@ -25,6 +34,8 @@ $icon-font-path: '../fonts/';
   -o-background-size: cover;
   z-index: 0;
 }
+
+
 
 #overlay{
   position:absolute;
