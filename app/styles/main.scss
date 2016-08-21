@@ -29,7 +29,7 @@ $font-regular : 'Karla';
 .header-text h1{
   font-family: $font-regular !important;
   font-weight: 400;
-  font-size: 43.2pt;
+  font-size: 48pt;
 }
 
 
@@ -114,6 +114,24 @@ $font-regular : 'Karla';
   left: 50%;
   position: absolute;
   z-index: 2;
+}
+
+
+/*footer*/
+footer ul li a{
+  color: #103B58;
+
+}
+
+footer ul li h5 {
+  font-size: 18pt;
+}
+
+footer ul li h6{
+  font-size: 14pt;
+}
+footer ul li a :hover{
+  color: #103B58;
 }
 
 
