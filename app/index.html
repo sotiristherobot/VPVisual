@@ -5,7 +5,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VPVisual</title>
-
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
@@ -16,6 +15,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animate.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -30,7 +30,7 @@
 
           <div class="row">
 
-            <div class="col-md-offset-7 col-md-5 intro-content header-text">
+            <div class=" col-sm-offset-7 col-sm-5 col-md-offset-7 col-md-5 intro-content header-text">
 
               <h1>From Factory </br> To store </br>  To out the door</h1>
               <h5>ABC creations offers international end-to-end apparel</br>
@@ -48,7 +48,7 @@
 
            <div class="downarrow text-center">
 
-             <img src="images/downArrow.png">
+             <img class="animated bounce " src="images/downArrow.png">
 
            </div>
         </div>
@@ -82,7 +82,7 @@
         <div class="row text-center ">
 
             <h3>Second Section Header</h3>
-          <img class="img-responsive center-block"  src="images/image2.png"/>
+          <img id="main-image" class="img-responsive center-block"  src="images/image2.png"/>
 
         </div>
 
@@ -138,21 +138,7 @@
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
-      <script>
-        $(document).ready(function(){
-          $(window).bind('scroll', function() {
-            var navHeight = $( window ).height() - 70;
-            if ($(window).scrollTop() > navHeight) {
-              $('nav').addClass('fixing');
 
-            }
-            else {
-
-              $('nav').removeClass('fixing');
-            }
-          });
-        });
-      </script>
 
   </body>
 </html>
