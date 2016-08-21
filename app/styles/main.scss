@@ -38,9 +38,19 @@ $icon-font-path: '../fonts/';
   z-index: 1;
 }
 
-#intro-content{
+.intro-content{
   color: white;
   z-index: 2;
+}
+
+.cbtn{
+  display: inline-block;
+  width: 45%;
+  height: 40px;
+  border: solid 2px white;
+  //line-height: 40px;
+  //vertical-align: middle;
+
 }
 
 .fixing {
