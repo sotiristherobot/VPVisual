@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45f3fe33-123f-476c-a659-488dbf5453b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
     </list>
     <ignored path="VPVisual.iws" />
@@ -26,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -36,17 +36,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
               <folding>
-                <element signature="e#894#946#0" expanded="false" />
-                <element signature="e#953#1086#0" expanded="false" />
-                <element signature="e#1096#1169#0" expanded="false" />
-                <element signature="e#1185#1295#0" expanded="false" />
-                <element signature="e#1307#1375#0" expanded="false" />
+                <element signature="e#222#289#0" expanded="false" />
+                <element signature="e#1098#1150#0" expanded="false" />
+                <element signature="e#1300#1373#0" expanded="false" />
+                <element signature="e#1389#1499#0" expanded="false" />
+                <element signature="e#1511#1579#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,8 +71,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/scripts/main.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
       </list>
     </option>
   </component>
@@ -191,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471715436514</updated>
-      <workItem from="1471715437763" duration="13467000" />
+      <workItem from="1471715437763" duration="13750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13467000" />
+    <option name="totallyTimeSpent" value="13750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="741" height="773" extended-state="0" />
@@ -250,25 +250,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#894#946#0" expanded="false" />
-            <element signature="e#953#1086#0" expanded="false" />
-            <element signature="e#1096#1169#0" expanded="false" />
-            <element signature="e#1185#1295#0" expanded="false" />
-            <element signature="e#1307#1375#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="e#222#289#0" expanded="false" />
+            <element signature="e#1098#1150#0" expanded="false" />
+            <element signature="e#1300#1373#0" expanded="false" />
+            <element signature="e#1389#1499#0" expanded="false" />
+            <element signature="e#1511#1579#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

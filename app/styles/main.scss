@@ -35,6 +35,17 @@ body h1,h2,h3,h4{
   z-index: 0;
 }
 
+#header-inner ul,li,a{
+  font-family: $font-regular !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+}
+
+#header-inner ul,li,a:hover{
+  text-decoration: none;
+  color: white;
+}
 
 
 #overlay{
@@ -62,9 +73,9 @@ body h1,h2,h3,h4{
 .cbtn{
   display: inline-block;
   width: 45%;
-  height: 40px;
+  height: 60px;
   border: solid 2px white;
-  line-height: 40px;
+  line-height: 60px;
   vertical-align: middle;
 
 }
