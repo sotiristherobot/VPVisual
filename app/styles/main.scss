@@ -29,6 +29,7 @@ $font-regular : 'Karla';
 .header-text h1{
   font-family: $font-regular !important;
   font-weight: 400;
+  font-size: 43.2pt;
 }
 
 
@@ -78,7 +79,7 @@ $font-regular : 'Karla';
 .intro-content{
   color: white;
   z-index: 2;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .cbtn{
