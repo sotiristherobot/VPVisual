@@ -18,7 +18,11 @@ $icon-font-path: '../fonts/';
 #header-inner{
   height: 100vh;
   background-image: url("/images/image1.jpg");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   z-index: 0;
 }
 
@@ -41,6 +45,7 @@ $icon-font-path: '../fonts/';
 .intro-content{
   color: white;
   z-index: 2;
+  margin-top: 20%;
 }
 
 .cbtn{
@@ -79,3 +84,14 @@ $icon-font-path: '../fonts/';
 
 
 /* Main Content */
+
+/* Media Queries */
+@media(max-width:767px){
+
+  .intro-content{
+
+    height: 100vh;
+  }
+
+
+}
