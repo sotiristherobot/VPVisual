@@ -21,7 +21,7 @@ $(document).ready(function(){
   //scroll to bottom
   $('.downarrow').click(function () {
 
-    $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+    $('html, body').animate({ scrollTop: $(document).height() }, 'slow');
     return false;
   });
 

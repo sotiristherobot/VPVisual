@@ -17,6 +17,12 @@ $link-color: #103B58;
 
 }
 
+body{
+
+  font-family: $font-regular;
+
+}
+
 .header-text h2,h3,h4,h5{
   font-family: $font-regular !important;
   font-weight: 200;
@@ -36,7 +42,7 @@ $link-color: #103B58;
 /* Header Styling */
 #header-inner{
   height: 100vh;
-  background-image: url("/images/image1.jpg");
+  background-image: url(../images/image1.jpg);
   background-repeat: no-repeat;
   -moz-background-size: cover;
   background-size: cover;
@@ -82,7 +88,8 @@ $link-color: #103B58;
   display: inline-block;
   vertical-align: middle;
   line-height: 60px;
-  width: 45%;
+  width: 40%;
+  margin-right: 2%;
   height: 60px;
   border: solid 2px white;
   -webkit-transform: translateZ(0);
