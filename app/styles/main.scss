@@ -7,22 +7,20 @@ $icon-font-path: '../fonts/';
 @import 'https://fonts.googleapis.com/css?family=Karla';
 
 $font-regular : 'Karla';
+$link-color: #103B58;
+
 
 
 *{
   margin: 0;
   padding: 0;
 
-  //width: 100%;
-  //height: 100%;
-
 }
-
 
 .header-text h2,h3,h4,h5{
   font-family: $font-regular !important;
   font-weight: 200;
-  line-height: 2;
+  line-height: 1.5;
 
 }
 
@@ -30,6 +28,7 @@ $font-regular : 'Karla';
   font-family: $font-regular !important;
   font-weight: 400;
   font-size: 48pt;
+  line-height: 0.8;
 }
 
 
@@ -57,7 +56,7 @@ $font-regular : 'Karla';
   color: white;
 }
 .navbar-header a{
-  color: #103B58;
+  color: $link-color;
 }
 
 #overlay{
@@ -67,12 +66,6 @@ $font-regular : 'Karla';
   bottom:0px;
   right:0px;
   background-color: rgba(30, 118, 187, 0.5);
-  //bottom:0;
-  //left: 0;
-  //opacity: 0.5;
-  //position: absolute;
-  //right:0;
-  //top:0;
   z-index: 1;
 }
 
@@ -82,14 +75,53 @@ $font-regular : 'Karla';
   margin-top: 15%;
 }
 
-.cbtn{
+
+/* Button Effects */
+.hvr-sweep-to-right {
   display: inline-block;
+  vertical-align: middle;
+  line-height: 60px;
   width: 45%;
   height: 60px;
   border: solid 2px white;
-  line-height: 60px;
-  vertical-align: middle;
-
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $link-color;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .fixing {
@@ -121,7 +153,7 @@ $font-regular : 'Karla';
 
 /*footer*/
 footer ul li a{
-  color: #103B58;
+  color: $link-color;
 
 }
 
@@ -131,19 +163,21 @@ footer ul li h5 {
 
 footer ul li h6{
   font-size: 14pt;
+  font-family: $font-regular;
 }
 footer ul li a :hover{
-  color: #103B58;
+  color: $link-color;
+  mso-text-raise: none;
 }
 
 .navbar-brand{
-  color:#103B58;
+  color:$link-color;
   font-size: 30pt;
 }
 
 /* Main Content */
 #main-content h3{
-  color:#103B58;
+  color:$link-color;
   font-size: 30pt;
 }
 
