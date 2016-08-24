@@ -77,9 +77,23 @@ body{
 }
 
 .intro-content{
+
+  position: absolute;
+  bottom: 150px;
+  /*margin-top: 15%; */
+}
+
+#landing-page-wrapper{
+  position: relative;
+  color: red;
+}
+
+#test{
+  font-family: $font-regular;
+  position: absolute;
+  bottom:-550px;
   color: white;
   z-index: 2;
-  margin-top: 15%;
 }
 
 
